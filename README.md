@@ -4,6 +4,12 @@ This Docker image contains a very simple python flask web app.  It has a postgre
 data about users.  It has a single endpoint (/user) which, when given a user's email address,
 returns a user's full name by looking it up in the database.
 
+First build the container: 
+```
+docker build .
+```
+(alternatively, pull it via `docker pull quay.io/dblackdblack/x:250`)
+
 Launch the container by running this:
 
 ```
