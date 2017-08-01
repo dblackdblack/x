@@ -6,7 +6,7 @@ import random
 
 app.app.db.create_all()
 
-allnames = set(names.get_full_name() for _ in range(int(250000)))
+allnames = set(names.get_full_name() for _ in range(int(750000)))
 numnames = len(allnames)
 count = 0
 
